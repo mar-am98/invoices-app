@@ -1,5 +1,6 @@
 
 import { Avatar, AvatarImage } from "../ui/avatar";
+import DarkMode from "./DarkMode";
 
 export function SideNavbar() {
   return (
@@ -10,9 +11,9 @@ export function SideNavbar() {
       </div>
 
       <div className="flex flex-row items-center lg:flex-col lg:w-full">
-        <button className="px-8 lg:py-8 border-r lg:border-r-0 lg:border-b border-muted-foreground">
-          dark
-        </button>
+        <div className="px-8 lg:py-8 border-r lg:border-r-0 lg:border-b border-muted-foreground">
+          <DarkMode />
+        </div>
         <Avatar className="w-8 h-8 mx-6 lg:my-6 lg:w-10 lg:h-10">
           <AvatarImage src="profileImg.jpeg"/>
         </Avatar>
