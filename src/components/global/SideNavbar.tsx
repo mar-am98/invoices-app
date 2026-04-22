@@ -15,7 +15,7 @@ export function SideNavbar() {
           <DarkMode />
         </div>
         <Avatar className="w-8 h-8 mx-6 lg:my-6 lg:w-10 lg:h-10">
-          <AvatarImage src="profileImg.jpeg"/>
+          <AvatarImage src="/profileImg.jpeg"/>
         </Avatar>
       </div>
     </nav>
