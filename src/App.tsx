@@ -1,3 +1,4 @@
+import { Outlet } from "react-router-dom";
 import { SideNavbar } from "./components/global/SideNavbar";
 import { ThemeProvider } from "./components/theme-provider";
 
@@ -9,7 +10,7 @@ function App() {
 
         <main className="flex-1 flex justify-center py-8 px-6 lg:py-16">
           <div className="w-full max-w-183 mx-auto">
-
+            <Outlet />
           </div>
         </main>
       </div>
