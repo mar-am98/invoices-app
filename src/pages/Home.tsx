@@ -17,7 +17,7 @@ interface Invoice{
 function Home() {
   const invoices = invoicesData as Invoice[];
   return (
-    <div>
+    <div className="max-w-3xl mx-auto my-14">
         <header className="flex justify-between items-center mb-10 lg:mb-16 flex-wrap">
             <div>
                 <h1 className="text-2xl lg:text-3xl font-bold tracking-tight text-sidebar-foreground">
